@@ -1,0 +1,11 @@
+button {
+    font-family: var(--ff-secundaria);
+    color: var(--clr-claro);
+    font-size: 1rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    color: var(--clr-secundario);
+}

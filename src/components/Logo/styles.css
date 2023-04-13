@@ -1,0 +1,7 @@
+h1 {
+    font-family: var(--ff-secundaria);
+    letter-spacing: .015rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: var(--clr-claro);
+}
