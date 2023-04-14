@@ -5,6 +5,10 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AboutMe from './components/AboutMe/AboutMe';
 import Contact from './components/Contact/Contact';
 import PhotoListContainer from './components/PhotoListContainer/PhotoListContainer';
+import PhotoCategoryContent from './components/PhotoCategoryContent/PhotoCategoryContent';
+
+
+
 
 function App() {
   return (
@@ -13,9 +17,9 @@ function App() {
       <BrowserRouter>
 
         <NavBar />
-        
         <Routes>
-              <Route path='/' element= { <PhotoListContainer /> } />
+              <Route path='/' element= { <PhotoCategoryContent /> } />
+              <Route path='/category/:idCategory' element= { <PhotoListContainer /> } />
               <Route path='/aboutme' element= { <AboutMe /> } />
               <Route path='/contact' element= { <Contact /> } />
         </Routes>
@@ -27,3 +31,5 @@ function App() {
 }
 
 export default App;
+
+

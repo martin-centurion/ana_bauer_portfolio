@@ -10,7 +10,7 @@
 :root {
   --clr-primario: rgb(20,20,20);
   --clr-secundario: rgb(24, 255, 174);
-  --clr-claro: rgb(225, 225, 225);
+  --clr-claro: rgb(255, 255, 255);
   --clr-oscuro: rgb(20,20,20);
   --ff-primaria: 'Abril Fatface', cursive;
   --ff-secundaria: 'Inter', sans-serif;
@@ -22,7 +22,7 @@ button {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 

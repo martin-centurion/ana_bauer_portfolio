@@ -7,11 +7,13 @@ import { Link } from 'react-router-dom';
 
 function NavBar() {
   return (
-    <div className='header container'>
-        <Link to={"/"}>
-            <Logo />
-        </Link>
-        <NavBarMenu />
+    <div className='header'>
+        <div className='header__content container'>
+          <Link to={"/"}>
+              <Logo />
+          </Link>
+          <NavBarMenu />
+        </div>
     </div>
   )
 }

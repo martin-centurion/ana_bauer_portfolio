@@ -1,6 +1,6 @@
 import React from 'react';
 import ButtonNavigation from '../ButtonNavigation/ButtonNavigation';
-function NavBarMenu(props) {
+function NavBarMenu() {
   return (
     <nav>   
             <ButtonNavigation onTouchButton={'/aboutme'}>
